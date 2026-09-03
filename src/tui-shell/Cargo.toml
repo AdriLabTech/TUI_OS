@@ -1,0 +1,15 @@
+[package]
+name = "tui-shell"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+tui-core = { path = "../tui-core" }
+clap.workspace = true
+anyhow.workspace = true
+
+[lints.rust]
+unsafe_code = "forbid"

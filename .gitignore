@@ -1,0 +1,23 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Documentation build
+/site/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# .context is project documentation (do not commit)
+/.context/
+
+# mkdocs
+/site/

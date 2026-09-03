@@ -1,0 +1,31 @@
+site_name: TUI-OS Documentation
+site_description: TUI-OS - A terminal-first operating system
+site_author: TUI-OS Team
+
+repo_name: tuios/tui-os
+repo_url: https://github.com/tuios/tui-os
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+  features:
+    - navigation.instant
+    - navigation.tracking
+
+nav:
+  - Home: index.md
+  - Specification:
+    - Overview: spec/tui-os-v0.1.md
+  - Architecture:
+    - ADR-001: adr/ADR-001-language-and-base-libraries.md
+  - Development:
+    - Contributing: CONTRIBUTING.md
+
+plugins:
+  - search

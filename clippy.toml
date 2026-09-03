@@ -1,0 +1,13 @@
+disallowed-names = ["foo", "bar", "baz", "quux"]
+cognitive-complexity-threshold = 15
+too-many-arguments-threshold = 8
+type-complexity-threshold = 500
+single-char-binding-names-threshold = 4
+too-large-for-stack = 200
+enum-variant-name-threshold = 5
+literal-representation-threshold = 10_000
+trivial-copy-size-limit = 128
+pass-by-value-size-limit = 256
+avoid-breaking-exported-api = true
+warn-on-all-wildcard-imports = true
+disallowed-methods = ["std::fs::read_to_string"]
