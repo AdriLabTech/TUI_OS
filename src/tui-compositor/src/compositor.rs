@@ -5,3 +5,9 @@ impl Compositor {
         Self
     }
 }
+
+impl Default for Compositor {
+    fn default() -> Self {
+        Self::new()
+    }
+}

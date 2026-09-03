@@ -1,7 +1,7 @@
 #![forbid(unsafe_code)]
 
-pub mod window;
 pub mod compositor;
+pub mod window;
 
-pub use window::Window;
 pub use compositor::Compositor;
+pub use window::Window;

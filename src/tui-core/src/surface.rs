@@ -8,10 +8,6 @@ pub struct Surface {
 
 impl Surface {
     pub fn new(width: usize, height: usize) -> Self {
-        Self {
-            buffer: Buffer::new(width, height),
-            offset_x: 0,
-            offset_y: 0,
-        }
+        Self { buffer: Buffer::new(width, height), offset_x: 0, offset_y: 0 }
     }
 }

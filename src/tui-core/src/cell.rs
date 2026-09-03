@@ -28,11 +28,6 @@ impl fmt::Debug for Cell {
 
 impl Cell {
     pub fn new(ch: char) -> Self {
-        Self {
-            ch,
-            fg: Color,
-            bg: Color,
-            attrs: Attributes::default(),
-        }
+        Self { ch, fg: Color, bg: Color, attrs: Attributes::default() }
     }
 }

@@ -18,3 +18,9 @@ impl InputHandler {
         Self
     }
 }
+
+impl Default for InputHandler {
+    fn default() -> Self {
+        Self::new()
+    }
+}
